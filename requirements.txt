@@ -1,0 +1,7 @@
+Flask
+opencv-python
+pyzbar
+numpy
+Pillow
+qrcode
+pytest
