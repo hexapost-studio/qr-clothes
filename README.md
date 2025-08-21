@@ -26,6 +26,17 @@ Send a `POST` request to `/render` with form data:
 
 The server responds with the rendered PNG.
 
+## Demo
+
+Run a simple end-to-end example that generates a QR code image and renders a cube using Blender:
+
+```bash
+python demo.py
+```
+
+The resulting image `demo_render.png` is saved in the project directory. Blender must be installed.
+
+
 ## Notes
 
 - If `pyzbar` is unavailable, OpenCV's built-in QRCode detector is used as a fallback.
